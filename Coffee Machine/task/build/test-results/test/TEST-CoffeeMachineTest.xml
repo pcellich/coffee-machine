@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-07T17:02:08" hostname="LAPTOP-N2ICUNRE" time="0.117">
+  <properties/>
+  <testcase name="start" classname="CoffeeMachineTest" time="0.117"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Enter the number of cups of coffee you want to make: 
+
+> 25
+To make 25 cups of coffee, you need 
+5000 ml of water 
+1250 ml of milk, and 
+375 g of coffee beans.
+?[1;31m
+Start test 2?[0m
+Enter the number of cups of coffee you want to make: 
+
+> 125
+To make 125 cups of coffee, you need 
+25000 ml of water 
+6250 ml of milk, and 
+1875 g of coffee beans.
+?[1;31m
+Start test 3?[0m
+Enter the number of cups of coffee you want to make: 
+
+> 1
+To make 1 cups of coffee, you need 
+200 ml of water 
+50 ml of milk, and 
+15 g of coffee beans.
+?[1;31m
+Start test 4?[0m
+Enter the number of cups of coffee you want to make: 
+
+> 123
+To make 123 cups of coffee, you need 
+24600 ml of water 
+6150 ml of milk, and 
+1845 g of coffee beans.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
