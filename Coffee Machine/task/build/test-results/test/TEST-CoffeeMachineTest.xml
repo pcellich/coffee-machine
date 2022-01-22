@@ -1,43 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-07T17:02:08" hostname="LAPTOP-N2ICUNRE" time="0.117">
+<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-22T15:47:31" hostname="LAPTOP-N2ICUNRE" time="0.132">
   <properties/>
-  <testcase name="start" classname="CoffeeMachineTest" time="0.117"/>
+  <testcase name="start" classname="CoffeeMachineTest" time="0.132"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-Enter the number of cups of coffee you want to make: 
+The coffee machine has:
+400 ml of water
+540 ml of milk
+120 g of coffee beans
+9 disposable cups
+$550 of money
 
-> 25
-To make 25 cups of coffee, you need 
-5000 ml of water 
-1250 ml of milk, and 
-375 g of coffee beans.
+Write action (buy, fill, take):
+
+> take
+I gave you $550
+
+The coffee machine has: 
+400 ml of water
+540 ml of milk 
+120 g of coffee beans 
+9 disposable cups 
+$0 of money
 ?[1;31m
 Start test 2?[0m
-Enter the number of cups of coffee you want to make: 
+The coffee machine has:
+400 ml of water
+540 ml of milk
+120 g of coffee beans
+9 disposable cups
+$550 of money
 
-> 125
-To make 125 cups of coffee, you need 
-25000 ml of water 
-6250 ml of milk, and 
-1875 g of coffee beans.
-?[1;31m
-Start test 3?[0m
-Enter the number of cups of coffee you want to make: 
+Write action (buy, fill, take):
+
+> buy
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
 
 > 1
-To make 1 cups of coffee, you need 
-200 ml of water 
-50 ml of milk, and 
-15 g of coffee beans.
+The coffee machine has: 
+150 ml of water,
+540 ml of milk
+104 g of coffee beans 
+8 disposable cups 
+$554 of money
+?[1;31m
+Start test 3?[0m
+The coffee machine has:
+400 ml of water
+540 ml of milk
+120 g of coffee beans
+9 disposable cups
+$550 of money
+
+Write action (buy, fill, take):
+
+> buy
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+
+> 2
+The coffee machine has: 
+50 ml of water
+465 ml of milk 
+100 g of coffee beans 
+8 disposable cups 
+$557 of money
 ?[1;31m
 Start test 4?[0m
-Enter the number of cups of coffee you want to make: 
+The coffee machine has:
+400 ml of water
+540 ml of milk
+120 g of coffee beans
+9 disposable cups
+$550 of money
 
-> 123
-To make 123 cups of coffee, you need 
-24600 ml of water 
-6150 ml of milk, and 
-1845 g of coffee beans.
+Write action (buy, fill, take):
+
+> buy
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+
+> 3
+The coffee machine has: 
+200 ml of water
+440 ml of milk 
+108 g of coffee beans 
+8 disposable cups 
+$556 of money
+?[1;31m
+Start test 5?[0m
+The coffee machine has:
+400 ml of water
+540 ml of milk
+120 g of coffee beans
+9 disposable cups
+$550 of money
+
+Write action (buy, fill, take):
+
+> fill
+Write how many ml of water you want to add:
+
+> 2001
+Write how many ml of milk you want to add:
+> 510
+Write how many grams of coffee beans you want to add:
+> 101
+Write how many disposable cups of coffee you want to add: 
+> 21
+The coffee machine has: 
+2401 ml of water
+1050 ml of milk 
+221 g of coffee beans 
+30 disposable cups 
+$550 of money
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
